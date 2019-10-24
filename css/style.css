@@ -2,12 +2,13 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 h1 {
-  background-image: url("../images/olivier-miche-QLmw7fMCDkg-unsplash.jpg");
+  background-image: url("../images/phoebe-strafford-EBbP0Wrbmqs-unsplash.jpg");
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-size: cover;
 }
 h1 {
@@ -17,6 +18,5 @@ h1 {
   text-align: center;
 }
 h1 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
