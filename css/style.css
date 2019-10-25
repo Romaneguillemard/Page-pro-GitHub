@@ -2,13 +2,13 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: white;
 }
 
 h1 {
-  background-image: url("../images/phoebe-strafford-EBbP0Wrbmqs-unsplash.jpg");
+  background-image: url("../images/bannnnnnnn.png");
   width: 100%;
-  height: 450px;
+  height: 400px;
   background-size: cover;
 }
 h1 {
@@ -19,4 +19,8 @@ h1 {
 }
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  text-align: center;
 }
