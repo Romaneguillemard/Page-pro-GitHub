@@ -29,7 +29,7 @@ h1 {
 #logo {
   height: 90%;
   margin-left: 33%;
-  margin-top: -4.4%;
+  margin-top: -5%;
 }
 
 #titre {
@@ -80,22 +80,21 @@ li a:hover {
 .one {
   grid-column: 1;
   grid-row: 1;
-  bbackground-image: url(../images/img.jpeg);
+  background-color: #705d5c;
+  height: 250px;
 }
 
 .deux {
   grid-column: 2;
   grid-row: 1;
-  background-color: black;
+  background-color: #705d5c;
+  height: 250px;
 }
 
-.trois {
-  grid-column: 3;
-  grid-row: 1;
-  background-color: black;
-}
 .one:hover {
-  background-image: url(../images/img.jpeg);
+  background-color: white;
+  color: white;
+  box-shadow: 8px black;
 }
 
 .deux:hover {
@@ -103,7 +102,6 @@ li a:hover {
   color: white;
 }
 
-.trois:hover {
-  background-color: white;
-  color: white;
+.button1 {
+  box-shadow: 8px black;
 }
