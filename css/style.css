@@ -73,31 +73,33 @@ li a:hover {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 2fr, 2fr;
+  grid-template-columns: 4fr, 4fr;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
-.one {
-  grid-column: 1;
+
+.un {
+  grid-column: 1/2;
   grid-row: 1;
   background-color: #705d5c;
   height: 250px;
 }
 
 .deux {
-  grid-column: 2;
+  grid-column: 2/3;
   grid-row: 1;
   background-color: #705d5c;
   height: 250px;
 }
 
-.one:hover {
+.un:hover {
   background-color: white;
   color: white;
-  box-shadow: black;
+  box-shadow: 8px 8px 12px #555;
 }
 
 .deux:hover {
   background-color: white;
   color: white;
+  box-shadow: 8px 8px 12px #555;
 }
