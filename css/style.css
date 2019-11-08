@@ -94,14 +94,10 @@ li a:hover {
 .one:hover {
   background-color: white;
   color: white;
-  box-shadow: 8px black;
+  box-shadow: black;
 }
 
 .deux:hover {
   background-color: white;
   color: white;
-}
-
-.button1 {
-  box-shadow: 8px black;
 }
