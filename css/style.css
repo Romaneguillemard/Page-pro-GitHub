@@ -4,13 +4,6 @@ body {
   background-color: darkgrey;
 }
 
-@media all and (max-width: 480px) {
-}
-@media (min-width: 480px) and (max-width: 780px) {
-}
-@media (min-width: 781px) and (max-width: 979px) {
-}
-
 #back {
   background-image: url(../images/david-klein-PyuvGG6LbNo-unsplash.jpg);
   width: 100%;
@@ -92,6 +85,20 @@ li a:hover {
   height: 250px;
 }
 
+.trois {
+  grid-column: 1/2;
+  grid-row: 2;
+  background-color: #705d5c;
+  height: 250px;
+}
+
+.quatre {
+  grid-column: 2/3;
+  grid-row: 2;
+  background-color: #705d5c;
+  height: 250px;
+}
+
 .un:hover {
   background-color: white;
   color: white;
@@ -99,6 +106,18 @@ li a:hover {
 }
 
 .deux:hover {
+  background-color: white;
+  color: white;
+  box-shadow: 8px 8px 12px #555;
+}
+
+.trois:hover {
+  background-color: white;
+  color: white;
+  box-shadow: 8px 8px 12px #555;
+}
+
+.quatre:hover {
   background-color: white;
   color: white;
   box-shadow: 8px 8px 12px #555;
