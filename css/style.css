@@ -1,7 +1,7 @@
 body {
   margin: 0;
   width: 100%;
-  background-color: darkgrey;
+  background-color: black;
 }
 
 #back {
@@ -20,15 +20,16 @@ h1 {
 }
 
 #logo {
+  color: white;
   height: 90%;
-  margin-left: 33%;
-  margin-top: -5%;
+  margin-left: 35%;
+  margin-top: -5.5%;
 }
 
 #titre {
   display: flex;
   justify-content: flex-end;
-  margin-right: 37%;
+  margin-right: 35%;
   position: relative;
   top: 90px;
 }
@@ -51,7 +52,7 @@ li {
 li a {
   display: block;
   color: white;
-  font-size: 15pt;
+  font-size: 14pt;
   padding: 20px 20px;
   text-decoration: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
