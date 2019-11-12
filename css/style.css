@@ -51,10 +51,10 @@ li {
 li a {
   display: block;
   color: white;
-  padding: 15px 20px;
+  font-size: 15pt;
+  padding: 20px 20px;
   text-decoration: none;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  -webkit-transition-duration: 0.4s;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 li a:hover {
@@ -76,58 +76,79 @@ li a:hover {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.un {
+.bloc1 {
   grid-column: 1/2;
   grid-row: 1;
   background-color: #705d5c;
   height: 250px;
 }
 
-.deux {
+.bloc1:hover {
+  color: white;
+  box-shadow: 8px 8px 12px #555;
+}
+
+.bloc1 p {
+  text-align: center;
+  padding-top: 7.5%;
+  font-size: 20pt;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.bloc2 {
   grid-column: 2/3;
   grid-row: 1;
   background-color: #705d5c;
   height: 250px;
 }
 
-.trois {
+.bloc2:hover {
+  color: white;
+  box-shadow: 8px 8px 12px #555;
+}
+
+.bloc2 p {
+  text-align: center;
+  padding-top: 7.5%;
+  font-size: 20pt;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: italic;
+}
+
+.bloc3 {
   grid-column: 1/2;
   grid-row: 2;
   background-color: #705d5c;
   height: 250px;
 }
 
-.quatre {
+.bloc3:hover {
+  color: white;
+  box-shadow: 8px 8px 12px #555;
+}
+
+.bloc3 p {
+  text-align: center;
+  padding-top: 7.5%;
+  font-size: 20pt;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.bloc4 {
   grid-column: 2/3;
   grid-row: 2;
   background-color: #705d5c;
   height: 250px;
 }
 
-.un:hover {
-  background-color: white;
+.bloc4:hover {
   color: white;
   box-shadow: 8px 8px 12px #555;
-  -webkit-transition-duration: 0.4s;
 }
 
-.deux:hover {
-  background-color: white;
-  color: white;
-  box-shadow: 8px 8px 12px #555;
-  -webkit-transition-duration: 0.4s;
-}
-
-.trois:hover {
-  background-color: white;
-  color: white;
-  box-shadow: 8px 8px 12px #555;
-  -webkit-transition-duration: 0.4s;
-}
-
-.quatre:hover {
-  background-color: white;
-  color: white;
-  box-shadow: 8px 8px 12px #555;
-  -webkit-transition-duration: 0.4s;
+.bloc4 p {
+  text-align: center;
+  padding-top: 7.5%;
+  font-size: 20pt;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
