@@ -1,3 +1,11 @@
-h1. {
-  background-color: gray;
+/**CSS pour téléphone**/
+body {
+  background-color: red;
+}
+
+/**CSS pour ordinateur**/
+@media (min-width: 800px) {
+  body {
+    background-color: seagreen;
+  }
 }
