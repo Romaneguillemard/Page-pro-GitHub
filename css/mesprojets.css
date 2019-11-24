@@ -6,8 +6,15 @@ body {
 /** CSS pour ordinateur **/
 @media (min-width: 800px) {
   body {
-    background-color: gray;
+    background-color: #eaded3;
   }
+
+  h1 {
+    color: black;
+    text-align: center;
+    background-color: white;
+  }
+
   #liens ul {
     list-style-type: none;
     margin: 0;

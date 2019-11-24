@@ -59,3 +59,22 @@ h1 {
   #photomonhistoire {
    height: 200px;
   }
+
+h2 {
+  background-color: white;
+  font-size: 35px;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 25px;
+}
+
+h3 {
+  font-size: 35px;
+  background-color: white;
+}
+
+# {
+  position:fixed;
+}
