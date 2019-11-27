@@ -1,6 +1,50 @@
 /**CSS pour téléphone**/
 body {
-  background-color: red;
+  background-color: #eaded3;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 20pt;
+}
+
+#liens ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 10vh;
+  justify-content: center;
+  display: flex;
+}
+
+li {
+  width: 160px;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 15pt;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style-type: none;
+  border: 3px solid white;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+  float: center;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 15pt;
 }
 
 /**CSS pour ordinateur**/
@@ -51,9 +95,5 @@ body {
   h2 {
     color: white;
     text-align: center;
-  }
-
-  #linkedin {
-    width: 50px;
   }
 }

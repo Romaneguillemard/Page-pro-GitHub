@@ -6,11 +6,60 @@ body {
 }
 
 h1 {
-  color: white;
+  color: black;
+  background-color: white;
+  font-size: 25pt;
+}
+#liens ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 10vh;
+  justify-content: center;
+  display: flex;
 }
 
+li {
+  width: 160px;
+  text-align: center;
+}
 
+li a {
+  display: block;
+  color: white;
+  font-size: 15pt;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style-type: none;
+  border: 3px solid white;
+}
 
+li a:hover {
+  background-color: white;
+  color: black;
+  float: center;
+}
+#photomonhistoire {
+  height: 100px;
+  width: 100%;
+ }
+
+ h2 {
+  background-color: white;
+  font-size: 20pt;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 25px;
+}
+
+h3 {
+  font-size: 35px;
+  background-color: white;
+}
 /** CSS pour ordinateur**/
 @media (min-width: 800px) {
   body {
@@ -58,6 +107,7 @@ h1 {
 
   #photomonhistoire {
    height: 200px;
+   width: 100%;
   }
 
 h2 {
@@ -74,8 +124,3 @@ h3 {
   font-size: 35px;
   background-color: white;
 }
-
-# {
-  position:fixed;
-}
-

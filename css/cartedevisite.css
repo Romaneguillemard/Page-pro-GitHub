@@ -1,0 +1,41 @@
+body {
+  background-color: #eaded3;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+#liens ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 10vh;
+  justify-content: left;
+  display: flex;
+}
+
+li {
+  width: 160px;
+  text-align: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 15pt;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style-type: none;
+  border: 3px solid white;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+  float: center;
+}
