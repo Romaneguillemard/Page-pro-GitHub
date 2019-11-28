@@ -47,6 +47,21 @@ h2 {
   font-size: 15pt;
 }
 
+.logoreseau {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoreseau > a {
+  text-decoration: none;
+}
+
+.logoreseau > a > img {
+  width: 100%;
+}
+
 /**CSS pour ordinateur**/
 @media (min-width: 800px) {
   body {
@@ -95,5 +110,21 @@ h2 {
   h2 {
     color: white;
     text-align: center;
+  }
+
+  .logoreseau {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoreseau > a {
+    text-decoration: none;
+  }
+
+  .logoreseau > a > img {
+    width: 100%;
+    height: 200px;
   }
 }

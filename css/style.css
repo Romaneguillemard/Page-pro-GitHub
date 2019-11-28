@@ -33,7 +33,37 @@ li a:hover {
   color: black;
   float: center;
 }
+  #liens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "accueil contact";
+    width: 100%;
+  }
 
+  #liens > a:first-child {
+    grid-area: accueil;
+    justify-self: center;
+    align-self: center;
+    color: black;
+    font-size: 14pt;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background: #eaded3;
+  }
+
+  #liens > a:last-child {
+    grid-area: contact;
+    justify-self: center;
+    align-self: center;
+    color: black;
+    font-size: 14pt;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background: #eaded3;
+  }
 #contenu li {
   width: 100%;
   background-color: #ffffff;
@@ -48,6 +78,19 @@ li a:hover {
   background-color: #eaded3;
   margin-left: 20%;
   list-style-type: none;
+}
+.footer {
+  background: lavender;
+  background-size: cover;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Crédits,
+.code,
+.design {
+  text-align: center;
 }
 
 /** CSS pour ordinateur**/
@@ -87,13 +130,11 @@ li a:hover {
     overflow: hidden;
     height: 10vh;
     justify-content: center;
-    display: flex;
   }
 
-  li {
-    width: 160px;
-    text-align: center;
-  }
+
+
+}
 
   li a {
     display: block;

@@ -51,9 +51,6 @@ p {
   font-size: 20px;
 }
 
-#voute {
-  margin-left: 20%;
-}
 /**CSS pour ordinateur**/
 
 @media (min-width: 800px) {
@@ -104,7 +101,7 @@ p {
     text-align: center;
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #voute {
