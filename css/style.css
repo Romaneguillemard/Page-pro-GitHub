@@ -9,8 +9,8 @@ h1 {
 }
 
 #logo {
-  width: 170px;
-  padding-left: 100px;
+  width: 180px;
+  padding-left: 95px;
 }
 
 li {
@@ -64,6 +64,7 @@ li a:hover {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     background: #eaded3;
   }
+  
 #contenu li {
   width: 100%;
   background-color: #ffffff;
@@ -80,7 +81,7 @@ li a:hover {
   list-style-type: none;
 }
 .footer {
-  background: lavender;
+  background: #eaded3;
   background-size: cover;
   height: auto;
   padding-top: 50px;
@@ -132,8 +133,6 @@ li a:hover {
     justify-content: center;
   }
 
-
-
 }
 
   li a {
@@ -166,7 +165,4 @@ li a:hover {
     margin-left: 20%;
   }
 
-  footer {
-    background-color: blue;
-  }
 }

@@ -40,6 +40,9 @@ li a:hover {
   float: center;
 }
 
+img {
+  width: 100%;
+}
 /** CSS pour ordinateur **/
 @media (min-width: 800px) {
   body {
